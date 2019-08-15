@@ -80,7 +80,7 @@ class Todo extends Component {
     this.setState({
       items: [
         ...this.state.items,
-        ...foundTask
+        //...foundTask
       ]
     });
   }
